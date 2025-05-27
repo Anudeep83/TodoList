@@ -30,3 +30,19 @@
 .delete-button:hover {
   background-color: #c00028;
 }
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.edit-input {
+  padding: 4px;
+  font-size: 16px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 4px 8px;
+  margin-left: 5px;
+  cursor: pointer;
+}
